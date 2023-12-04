@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "fragilenewborns",
+  "version": "${mod_version}",
+  "name": "FragileNewborns",
+  "description": "Make babies of entities more fragile than adult ones",
+  "authors": [
+    "Tapio"
+  ],
+  "license": "Nova-Relay-License-1.0",
+  "environment": "*",
+  "mixins": [
+    "fragilenewborns.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "*"
+  }
+}
